@@ -598,5 +598,8 @@ body {
     .footer .container {
         width: 360px;
     }
+    .content4 .mockup4 {
+        left: -315px;
+    }
 }
 /* END RESPONSIVE */
