@@ -143,6 +143,9 @@ body {
     .desc-text {
         width: 350px;
     }
+    .review .desc-text {
+        width: 300px;
+    }
     .footer .desc-text {
         width: 300px;
     }
@@ -425,9 +428,19 @@ body {
 
 
 @media only screen and (max-width: 400px) {
-    body {
+
+    .content-hero {
         
     }
+    
+    .content-hero .container {
+        
+    }
+
+    .content-hero .d-flex {
+        
+    }
+
     .main-content {
         width: 375px;
     }
@@ -494,10 +507,10 @@ body {
     }
     .content2 .mockup-box {
         height: 654px;
-        margin-left: 85px;
+        margin-left: 0px;
     }
     .content2 .mockup-box-img {
-        margin-left: 90px;
+        margin-left: 10px;
     }
     .content2 .mockup-desc {
         margin-top: 150px;
@@ -505,6 +518,9 @@ body {
     }
     .content2 .dexc-text {
         width: 290px;
+    }
+    .content2 .row {
+        margin-left: 315px;
     }
 
     .content3 {
@@ -527,10 +543,11 @@ body {
     }
     .content4 .mockup-box4 {
         margin-top: 300px;
-        margin-left: 90px;
+        margin-left: 0px;
     }
     .content4 .mockup2-img {
         margin-top: -400px;
+        margin-right: -10px!important;
     }
     .content4 .mockup-box-img {
         margin-left: 90px;
@@ -539,13 +556,18 @@ body {
         left: -245px;
         top: -210px;
     }
+    .content4 .row {
+        margin-left: 150px;
+    }
 
     .wrapper .carousel {
         width: 480px;
     }
     .card-group-review {
         margin-left: -110px;
+        margin-right: -110px;
     }
+    
     .review .judul-text {
         width: 250px;
     }
@@ -568,6 +590,9 @@ body {
     
     .arrow-email-footer {
         margin-left: -60px!important;
+    }
+    .review .desc-text {
+        width: 160px;
     }
 }
 /* END RESPONSIVE */
