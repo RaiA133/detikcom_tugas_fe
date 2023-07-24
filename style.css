@@ -594,5 +594,9 @@ body {
     .review .desc-text {
         width: 160px;
     }
+
+    .footer .container {
+        width: 360px;
+    }
 }
 /* END RESPONSIVE */
