@@ -602,4 +602,26 @@ body {
         left: -315px;
     }
 }
+
+@media only screen and (max-width: 360px) {
+    .main-content {
+        width: 360px;
+    }
+
+    .hero-wrapper {
+        width: 360px;
+    }
+    .content1 .mockup1-img {
+        width: 360px;
+    }
+
+    .content1 .judul-text, .review .judul-text {
+        width: 330px;
+    }
+
+    .wrapper .carousel {
+        width: 470px;
+    }
+}
+
 /* END RESPONSIVE */
